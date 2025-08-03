@@ -3,28 +3,43 @@
 
 <head>
     <title>Signup</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/login-signup.css'/>
+
+    <!-- google inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Signup</h1>
+    <main class="centre-body">
+        <h1 class="title">Signup</h1>
+            <form>
+                <div class="form-group">
+                    <label for="Username">Username</label>
+                    <input type="text" id="username">
+                </div>
 
-    <form>
-        <label for="Username">Username</label>
-        <input type="text" id="username">
+                <div class="form-group">
+                    <label for="Email">Email</label>
+                    <input type="text" id="email">
+                </div>
 
-        <label for="Email">Email</label>
-        <input type="text" id="email">
+                <div class="form-group">
+                    <label for="Password">Password</label>
+                    <input type="password" id="password">
+                </div>
 
-        <label for="Password">Password</label>
-        <input type="password" id="password">
+                <div class="form-group">
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input type="password" id="confirm-password">
+                </div>
 
-        <label for="Confirm Password">Confirm Password</label>
-        <input type="password" id="confirm-password">
-
-        <button type="submit">Create</button>
-    </form>
-    <p>Already have an account? <a href="/auth/login">Login</a></p>
+                <button type="submit">Create</button>
+            </form>
+            <p>Already have an account? <a href="/auth/login">Login</a></p>
+        </section>
+    </main>
 
 </body>
 
