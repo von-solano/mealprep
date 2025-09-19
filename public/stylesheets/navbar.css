@@ -35,3 +35,8 @@ nav li {
     font-weight: 500;
     font-size: medium;
 }
+
+a {
+    color: #1F2837;
+    text-decoration: none;
+}

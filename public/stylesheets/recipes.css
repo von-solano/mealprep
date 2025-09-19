@@ -1,0 +1,33 @@
+
+body {
+    padding: 100px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #F9FAFB;
+}
+
+#create-button {
+  background-color: #1F2837;
+  color: white;
+  font-weight: 500;
+
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* divide recipes into three columns */
+#recipe-grid {
+  column-count: 3;
+}
+
+.recipe {
+  background-color: white;
+  border-radius: 16px;
+  border: 1.5px solid #E5E7EB;
+}
+
+.recipe h3 {
+  margin-left: 15px;
+}

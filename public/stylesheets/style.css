@@ -4,21 +4,46 @@ body {
   background-color: #F9FAFB;
 }
 
-a {
-  color: #00B7FF;
-}
-
 /* divide macros into four sections */
 #macros {
   column-count: 4;
+  margin-bottom: 30px;
 }
 
 .macro-box {
   background-color: white;
-  border-radius: 8px;
+  border-radius: 16px;
   border: 1.5px solid #E5E7EB;
 }
 
 .macro-box h3 {
+  margin-left: 15px;
+}
+
+/* divide recents into two sections */
+#recents {
+  column-count: 2;
+  margin-bottom: 30px;
+
+}
+
+.recent {
+  background-color: white;
+  border-radius: 16px;
+  border: 1.5px solid #E5E7EB;
+}
+
+.recent h3 {
+  margin-left: 15px;
+}
+
+#progress {
+  background-color: white;
+  border-radius: 16px;
+  border: 1.5px solid #E5E7EB;
+  margin-bottom: 30px;
+}
+
+#progress h3 {
   margin-left: 15px;
 }
